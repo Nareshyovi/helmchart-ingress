@@ -2,8 +2,10 @@ replicaCount: 2
 
 image:
   repository: nareshyovi/node-app
-  tag: V5
-  containerPort: 3000
+  tag: "V5"
+  pullPolicy: IfNotPresent
+
+containerPort: 3000
 
 service:
   type: ClusterIP
@@ -24,4 +26,3 @@ resources:
   limits:
     cpu: 500m
     memory: 512Mi
-
