@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Nareshyovi/helmchart-ingress.git
     targetRevision: main
-    path: helm/node-app
+    path: .
     helm:
       releaseName: node-app
       valueFiles:
