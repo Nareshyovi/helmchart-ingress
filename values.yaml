@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: nareshyovi/node-app
-  tag: V6
+  tag: V5
   containerPort: 3000
 
 service:
