@@ -16,7 +16,7 @@ ingress:
   enabled: true
   className: nginx
   host: n8nnaresh.duckdns.org
-  tlsSecretName: node-app-tls
+  tls.secretName: node-app-tls
   clusterIssuer: letsencrypt-prod
 
 resources:
